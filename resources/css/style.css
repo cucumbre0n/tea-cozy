@@ -83,6 +83,15 @@ main #mission-statement {
 
 }
 
+#featured-tea .featured-text {
+  text-align: center;
+}
+
+#featured-tea .img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Locations */
 
 /* Footer */
