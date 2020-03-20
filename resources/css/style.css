@@ -10,4 +10,61 @@ html body {
 
 /* Header */
 
+header {
+  margin: auto 10px;
+  height: 69px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  width: 98%;
+  background-color: black;
+  display: inline-flex;
+}
+
+.tea-logo img {
+  height: 50px;
+  position: relative;
+  top: 15%;
+}
+
+header .header-nav {
+  width: 100%;
+}
+
+header .nav-list {
+
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav li {
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+.header-nav a {
+  color: seashell;
+}
+
 /* Main */
+
+main {
+  position: relative;
+  top: 500px;
+}
+
+/* Mission Statement */
+
+#mission-statement {
+
+}
+
+/* Tea of the Month */
+
+/* Locations */
+
+/* Footer */
