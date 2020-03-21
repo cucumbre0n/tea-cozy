@@ -80,20 +80,29 @@ main #mission-statement {
 /* Tea of the Month */
 
 #featured-tea {
-
+  margin: auto 100px;
+  width: 1000;
 }
 
 #featured-tea .featured-text {
   text-align: center;
 }
 
+/* Need to center flexwrap items */
 .tea-img {
-
+  display: inline-block;
 }
 
 .tea-img .img {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
+/* Need to center flexwrap items */
 
 /* Locations */
 
