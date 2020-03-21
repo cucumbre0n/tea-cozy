@@ -6,7 +6,7 @@ html body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  width: 1400px;
+  max-width: 1400px;
   overflow-x: hidden;
 }
 
@@ -19,7 +19,8 @@ header {
   top: 0px;
   z-index: 1;
   border-bottom: 1px solid seashell;
-  width: 1400px;
+  max-width: 1400px;
+  width: 100%;
   background-color: black;
   display: inline-flex;
 }
@@ -33,6 +34,7 @@ header {
 
 header .header-nav {
   width: 100%;
+  margin-right: 50px;
 }
 
 .header-nav ul {
