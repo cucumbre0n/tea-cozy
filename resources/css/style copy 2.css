@@ -90,21 +90,21 @@ main #mission-statement {
   text-align: center;
 }
 
-#featured-tea .images {
+/* Need to center flexwrap items */
+.tea-img {
+  display: inline-block;
+}
+
+.tea-img .img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-#featured-tea .img {
-  display: flex;
+  align-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
-
-#featured-tea .image {
-
-}
+/* Need to center flexwrap items */
 
 /* Locations */
 
@@ -140,6 +140,10 @@ main #mission-statement {
 footer {
   position: relative;
   top: 50px;
+}
+
+footer .footer-content {
+
 }
 
 footer .contact {
